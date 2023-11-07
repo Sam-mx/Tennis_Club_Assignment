@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 01, 2023 at 03:57 AM
+-- Generation Time: Nov 07, 2023 at 04:32 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -62,8 +62,8 @@ CREATE TABLE `event_registration` (
 --
 
 INSERT INTO `event_registration` (`id`, `Name`, `Email`, `Gender`, `Phno`, `Event_name`, `Remarks`) VALUES
-(1, 'Sam', 'Sammy@gmail.com', 'Male', '2147483647', 'University', 'Hello...!!! Hi!!'),
-(2, 'Mist', 'Mist@gmail.com', 'Female', '55778899251', 'University\'s Winter Sports Festival', 'Bonjour!!!!');
+(1, 'Sam', 'Sammy@gmail.com', 'Male', '2147483647', 'University\'s Winter Sports Festival', 'Hello...!!! Hi!!'),
+(2, 'Mist', 'Mist@gmail.com', 'Male', '55778899251', 'University\'s Winter Sports Festival', 'Bonjour!!!!');
 
 --
 -- Indexes for dumped tables
@@ -95,7 +95,7 @@ ALTER TABLE `admin_login`
 -- AUTO_INCREMENT for table `event_registration`
 --
 ALTER TABLE `event_registration`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
