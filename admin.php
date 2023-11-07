@@ -293,8 +293,8 @@ if (!isset($_SESSION["sess_user"])) {
                                     </option>
                                     <option value="Auditions">Auditions</option>
                                     <option value="Junior Tennis Camp">Junior Tennis Camp</option>
-                                    <option value="Training with our coachs and players">
-                                        Training with our coachs and players
+                                    <option value="Training with our coaches and players">
+                                        Training with our coaches and players
                                     </option>
                                 </select>
                             </div>
@@ -375,8 +375,8 @@ if (!isset($_SESSION["sess_user"])) {
                                     </option>
                                     <option value="Auditions">Auditions</option>
                                     <option value="Junior Tennis Camp">Junior Tennis Camp</option>
-                                    <option value="Training with our coachs and players">
-                                        Training with our coachs and players
+                                    <option value="Training with our coaches and players">
+                                        Training with our coaches and players
                                     </option>
                                 </select>
                             </div>

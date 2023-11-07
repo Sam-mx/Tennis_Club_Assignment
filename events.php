@@ -356,7 +356,7 @@
               </div>
               <div class="events-grid-txt">
                 <span>Training</span>
-                <h2>Training with our coachs and players</h2>
+                <h2>Training with our coaches and players</h2>
                 <ul>
                   <li>
                     <i class="fa fa-calendar" aria-hidden="true"></i> Oct 30 -
@@ -430,8 +430,8 @@
             </option>
             <option value="Auditions">Auditions</option>
             <option value="Junior Tennis Camp">Junior Tennis Camp</option>
-            <option value="Training with our coachs and players">
-              Training with our coachs and players
+            <option value="Training with our coaches and players">
+              Training with our coaches and players
             </option>
           </select>
         </div>
