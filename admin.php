@@ -112,7 +112,7 @@ if (!isset($_SESSION["sess_user"])) {
 
             if ($nameErr == "" && $emailErr == "" && $mobilenoErr == "" && $genderErr == "" && $agreeErr == "") {
 
-                $sql = "INSERT INTO event_registration(id,Name,Email,Gender,Phno,Event_name,Remarks) VALUES ('" . NULL . "" . "','$_POST[name]',
+                $sql = "INSERT INTO event_registration(id,Name,Email,Gender,Phno,Event_name,Remarks) VALUES (NULL,'$_POST[name]',
     '$_POST[email]','$_POST[gender]','$_POST[phno]','$_POST[ename]','$_POST[remark]')";
 
                 if ($con->query($sql) === TRUE) {
